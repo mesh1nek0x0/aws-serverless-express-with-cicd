@@ -4,7 +4,7 @@ references:
       name: AWS SAM DEPLOY
       command: |
         npm run config -- --account-id="$AWS_ACCOUNT_ID" --bucket-name="$SERVERLESS_EXPLESS_BUCKET" --region="$AWS_REGION"
-        cat package.json
+        npm run setup
 
 version: 2
 
